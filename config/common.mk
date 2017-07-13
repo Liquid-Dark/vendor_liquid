@@ -37,7 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3 \
     ro.secure=0
-    
+
 # UBER property overides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bg_apps_limit=20 \
@@ -59,7 +59,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     ro.substratum.verified=true \
     ro.opa.eligible_device=true \
-    ro.adb.secure=1    
+    ro.adb.secure=1
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -135,19 +135,19 @@ endif
 # Viper4Android
 PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/addon.d/viper.zip:system/addon.d/viper.zip
-    
+
 # Magisk
 PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/addon.d/Magisk.zip:system/addon.d/Magisk.zip
-    
+
 # MagiskManager
 PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/apps/MagiskManager.apk:system/app/MagiskManager/MagiskManager.apk
-    
+
 # Gallery2
 PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/apps/Gallery2.apk:system/app/Gallery2/Gallery2.apk     
-        
+    vendor/liquid/prebuilt/apps/Gallery2.apk:system/app/Gallery2/Gallery2.apk
+
 # Include packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
